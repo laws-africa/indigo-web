@@ -1,6 +1,7 @@
 # Indigo Web
 
-Stylesheets and Javascript for use with HTML documents published using the [Indigo platform](https://indigo.readthedocs.org).
+Stylesheets for use with HTML documents published using the [Indigo platform](https://indigo.readthedocs.org).
+They make Akoma Ntoso documents look beautiful.
 
 ## Usage
 
