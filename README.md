@@ -31,9 +31,11 @@ their values.
 
 1. Compile the SCSS:
 
-    scss -t compressed scss/akoma-ntoso.scss css/akoma-ntoso.min.css
-    scss scss/akoma-ntoso.scss css/akoma-ntoso.css
-    git add css/*
+```bash
+scss -t compressed scss/akoma-ntoso.scss css/akoma-ntoso.min.css
+scss scss/akoma-ntoso.scss css/akoma-ntoso.css
+git add css/*
+```
 
 2. Update the README.md to describe changes.
 3. Create and tag a release on GitHub
