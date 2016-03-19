@@ -21,6 +21,23 @@ Or use the SCSS files:
 You can override variables when using SCSS by copying them from ``_variables.scss`` into ``_custom.scss`` and changing
 their values.
 
+# Version history
+
+## 0.1.0 (19 March 2015)
+
+* Initial release
+
+# Releasing a new version
+
+1. Compile the SCSS:
+
+    scss -t compressed scss/akoma-ntoso.scss css/akoma-ntoso.min.css
+    scss scss/akoma-ntoso.scss css/akoma-ntoso.css
+    git add css/*
+
+2. Update the README.md to describe changes.
+3. Create and tag a release on GitHub
+
 # License
 
 Licensed under an MIT license.
