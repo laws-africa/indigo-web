@@ -1,7 +1,7 @@
 language: ruby
 before_install:
   - gem install sass
-script: build.sh
+script: ./build.sh
 before_deploy:
   - mkdir dist
   - cp css/* dist/
