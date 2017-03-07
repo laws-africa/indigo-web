@@ -22,6 +22,13 @@ Or use the SCSS files:
 You can override variables when using SCSS by copying them from ``_variables.scss`` into ``_custom.scss`` and changing
 their values.
 
+## Building
+
+To build changes:
+
+* gem install sass
+* ./build.sh
+
 # Version history
 
 ## 0.1.1 (19 March 2015)
