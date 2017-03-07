@@ -11,7 +11,7 @@ deploy:
   provider: s3
   skip_cleanup: true
   region: eu-west-1
-  bucket: indigo-web.code4sa.org
+  bucket: indigo-web.openup.org.za
   paths: "$(ls css/akoma-ntoso.* | tr '\n' ':')"
   local_dir: dist
   upload-dir: "dist/$(cat VERSION)"
