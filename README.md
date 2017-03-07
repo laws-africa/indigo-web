@@ -36,6 +36,7 @@ To build changes:
 
 * gem install sass
 * ./build.sh
+* git add css/*
 
 ## Release process
 
@@ -53,19 +54,6 @@ To build changes:
 ## 0.1.0 (19 March 2015)
 
 * Initial release
-
-# Releasing a new version
-
-1. Compile the SCSS:
-
-```bash
-scss -t compressed scss/akoma-ntoso.scss css/akoma-ntoso.min.css
-scss scss/akoma-ntoso.scss css/akoma-ntoso.css
-git add css/*
-```
-
-2. Update the README.md to describe changes.
-3. Create and tag a release on GitHub
 
 # License
 
