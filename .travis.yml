@@ -2,3 +2,17 @@ language: ruby
 before_install:
   - gem install sass
 script: build.sh
+before_deploy:
+  - mkdir dist
+  - cp css/* dist/
+deploy:
+  provider: s3
+  skip_cleanup: true
+  region: eu-west-1
+  bucket: indigo-web.code4sa.org
+  paths: "$(ls css/akoma-ntoso.*)"
+  local_dir: dist
+  upload-dir: "dist/$(cat VERSION)"
+  detect_encoding: true
+  cache_control: "max-age=31536000"
+  expires: "$(date -d '+1 year' '+%Y-%m-%d 00:00:00 -0000')"
