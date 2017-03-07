@@ -12,7 +12,7 @@ deploy:
   skip_cleanup: true
   region: eu-west-1
   bucket: indigo-web.code4sa.org
-  paths: "$(ls css/akoma-ntoso.*)"
+  paths: "$(ls css/akoma-ntoso.* | tr '\n' ':')"
   local_dir: dist
   upload-dir: "dist/$(cat VERSION)"
   detect_encoding: true
