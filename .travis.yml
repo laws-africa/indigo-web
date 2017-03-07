@@ -14,7 +14,7 @@ deploy:
   bucket: indigo-web.openup.org.za
   paths: "$(ls css/akoma-ntoso.* | tr '\n' ':')"
   local_dir: dist
-  upload-dir: "dist/$(cat VERSION)/css/"
+  upload-dir: "dist/$(cat VERSION)/css"
   detect_encoding: true
   cache_control: "max-age=31536000"
   expires: "$(date -d '+1 year' '+%Y-%m-%d 00:00:00 -0000')"
