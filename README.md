@@ -29,6 +29,13 @@ To build changes:
 * gem install sass
 * ./build.sh
 
+## Release process
+
+* update VERSION
+* update Version History (below)
+* push to github and tag release
+* Travis should build the tagged version and release it
+
 # Version history
 
 ## 0.1.1 (19 March 2015)
