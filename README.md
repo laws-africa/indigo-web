@@ -5,6 +5,14 @@ They make Akoma Ntoso documents look beautiful.
 
 ## Usage
 
+### From CDN
+
+Use the assets directly from a CDN:
+
+    <link rel="stylesheet" type="text/css" href="//indigo-web.openup.org.za/dist/0.1.1/css/akoma-ntoso.min.css">
+
+### From your server
+
 Install indigo-web using bower:
 
     $ bower install indigo-web
