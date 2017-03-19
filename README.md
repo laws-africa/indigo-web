@@ -51,11 +51,11 @@ To build changes:
 
 * Styling for rendering commencement and assent notices as list items, not headings.
 
-## 0.1.1 (19 March 2015)
+## 0.1.1 (19 March 2016)
 
 * Bump base font size to 15px to improve legibility with serif fonts.
 
-## 0.1.0 (19 March 2015)
+## 0.1.0 (19 March 2016)
 
 * Initial release
 
