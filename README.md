@@ -1,5 +1,7 @@
 # Indigo Web
 
+[![Build Status](https://travis-ci.org/Code4SA/indigo-web.svg)](http://travis-ci.org/Code4SA/indigo-web)
+
 Stylesheets for use with HTML documents published using the [Indigo platform](https://indigo.readthedocs.org).
 They make Akoma Ntoso documents look beautiful.
 
