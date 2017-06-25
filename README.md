@@ -11,7 +11,7 @@ They make Akoma Ntoso documents look beautiful.
 
 Use the assets directly from a CDN:
 
-    <link rel="stylesheet" type="text/css" href="//indigo-web.openup.org.za/dist/0.1.1/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="//indigo-web.openup.org.za/dist/0.1.2/css/akoma-ntoso.min.css">
 
 ### From your server
 
