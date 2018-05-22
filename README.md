@@ -44,8 +44,9 @@ To build changes:
 
 * update VERSION
 * update Version History (below)
-* push to github and tag release
-* Travis should build the tagged version and release it to S3 (and the CDN)
+* tag release: `git tag vX.X.X`
+* push to github: `git push origin --tags`
+* Travis wil build the tagged version and release it to S3 (and the CDN)
 
 # Version history
 
