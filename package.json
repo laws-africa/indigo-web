@@ -1,6 +1,6 @@
 {
   "name": "indigo-web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stylesheets and Javascript supporting HTML output from the Indigo platform.",
   "main": "",
   "scripts": {
