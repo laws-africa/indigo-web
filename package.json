@@ -1,0 +1,19 @@
+{
+  "name": "indigo-web",
+  "version": "1.0.0",
+  "description": "Stylesheets and Javascript supporting HTML output from the Indigo platform.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenUpSA/indigo-web.git"
+  },
+  "author": "Greg Kempe <greg@openup.org.za>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenUpSA/indigo-web/issues"
+  },
+  "homepage": "https://github.com/OpenUpSA/indigo-web#readme"
+}

@@ -1,6 +1,6 @@
 # Indigo Web
 
-[![Build Status](https://travis-ci.org/Code4SA/indigo-web.svg)](http://travis-ci.org/Code4SA/indigo-web)
+[![Build Status](https://travis-ci.org/OpenUpSA/indigo-web.svg)](http://travis-ci.org/OpenUpSA/indigo-web)
 
 Stylesheets for use with HTML documents published using the [Indigo platform](https://indigo.readthedocs.org).
 They make Akoma Ntoso documents look beautiful.
@@ -11,13 +11,13 @@ They make Akoma Ntoso documents look beautiful.
 
 Use the assets directly from a CDN:
 
-    <link rel="stylesheet" type="text/css" href="//indigo-web.openup.org.za/dist/0.1.3/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="//indigo-web.openup.org.za/dist/1.0.0/css/akoma-ntoso.min.css">
 
 ### From your server
 
-Install indigo-web using bower:
+Install indigo-web using npm:
 
-    $ bower install indigo-web
+    $ npm install indigo-web
 
 Then use either the compiled CSS:
 
@@ -48,6 +48,12 @@ To build changes:
 * Travis should build the tagged version and release it to S3 (and the CDN)
 
 # Version history
+
+## 1.0.0 (22 May 2018)
+
+* Support for country-specific traditions
+* Polish tradition
+* Moved to npm in favour of bower
 
 ## 0.1.3 (22 October 2017)
 
