@@ -11,7 +11,7 @@ They make Akoma Ntoso documents look beautiful.
 
 Use the assets directly from a CDN:
 
-    <link rel="stylesheet" type="text/css" href="//indigo-web.openup.org.za/dist/1.0.0/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="//indigo-web.openup.org.za/dist/1.0.1/css/akoma-ntoso.min.css">
 
 ### From your server
 
@@ -49,6 +49,10 @@ To build changes:
 * Travis wil build the tagged version and release it to S3 (and the CDN)
 
 # Version history
+
+## 1.0.1 (22 May 2018)
+
+* Minor fixes
 
 ## 1.0.0 (22 May 2018)
 
