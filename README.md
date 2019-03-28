@@ -43,10 +43,12 @@ To build changes:
 ## Release process
 
 * update VERSION
+* update version in `package.json`
 * update Version History (below)
 * build as above
 * tag release: `git tag vX.X.X`
-* push to github: `git push origin --tags`
+* push to GitHub: `git push origin --tags`
+* publish to npm: `npm publish`
 
 # Version history
 
