@@ -46,9 +46,16 @@ To build changes:
 * update Version History (below)
 * tag release: `git tag vX.X.X`
 * push to github: `git push origin --tags`
-* Travis wil build the tagged version and release it to S3 (and the CDN)
+* Travis will build the tagged version
 
 # Version history
+
+## 2.0.0 (28 March 2019)
+
+* Show .akn-paragraph as a block
+* Show .akn-longTitle in bold
+* Don't indent .akn-subsection and .akn-paragraph if they have .akn--no-indent
+* Moved away from custom CDN, use jsdelivr instead.
 
 ## 1.0.1 (22 May 2018)
 
