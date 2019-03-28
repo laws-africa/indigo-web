@@ -1,6 +1,6 @@
 {
   "name": "indigo-web",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Stylesheets and Javascript supporting HTML output from the Indigo platform.",
   "main": "",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OpenUpSA/indigo-web.git"
+    "url": "git+https://github.com/laws-africa/indigo-web.git"
   },
-  "author": "Greg Kempe <greg@openup.org.za>",
+  "author": "Greg Kempe <greg@laws.africa>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OpenUpSA/indigo-web/issues"
+    "url": "https://github.com/laws-africa/indigo-web/issues"
   },
-  "homepage": "https://github.com/OpenUpSA/indigo-web#readme"
+  "homepage": "https://github.com/laws-africa/indigo-web#readme"
 }

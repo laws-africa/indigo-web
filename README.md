@@ -1,6 +1,6 @@
 # Indigo Web
 
-[![Build Status](https://travis-ci.org/OpenUpSA/indigo-web.svg)](http://travis-ci.org/OpenUpSA/indigo-web)
+[![Build Status](https://travis-ci.org/laws-africa/indigo-web.svg)](http://travis-ci.org/laws-africa/indigo-web)
 
 Stylesheets for use with HTML documents published using the [Indigo platform](https://indigo.readthedocs.org).
 They make Akoma Ntoso documents look beautiful.
@@ -9,9 +9,9 @@ They make Akoma Ntoso documents look beautiful.
 
 ### From CDN
 
-Use the assets directly from a CDN:
+Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="//indigo-web.openup.org.za/dist/1.0.1/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@1.0.1/css/akoma-ntoso.min.css">
 
 ### From your server
 
@@ -43,12 +43,21 @@ To build changes:
 ## Release process
 
 * update VERSION
+* update version in `package.json`
 * update Version History (below)
+* build as above
 * tag release: `git tag vX.X.X`
-* push to github: `git push origin --tags`
-* Travis wil build the tagged version and release it to S3 (and the CDN)
+* push to GitHub: `git push origin --tags`
+* publish to npm: `npm publish`
 
 # Version history
+
+## 2.0.0 (28 March 2019)
+
+* Show .akn-paragraph as a block
+* Show .akn-longTitle in bold
+* Don't indent .akn-subsection and .akn-paragraph if they have .akn--no-indent
+* Moved away from custom CDN, use jsdelivr instead.
 
 ## 1.0.1 (22 May 2018)
 
