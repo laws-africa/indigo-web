@@ -44,9 +44,9 @@ To build changes:
 
 * update VERSION
 * update Version History (below)
+* build as above
 * tag release: `git tag vX.X.X`
 * push to github: `git push origin --tags`
-* Travis will build the tagged version
 
 # Version history
 
