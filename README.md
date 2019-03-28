@@ -1,6 +1,6 @@
 # Indigo Web
 
-[![Build Status](https://travis-ci.org/OpenUpSA/indigo-web.svg)](http://travis-ci.org/OpenUpSA/indigo-web)
+[![Build Status](https://travis-ci.org/laws-africa/indigo-web.svg)](http://travis-ci.org/laws-africa/indigo-web)
 
 Stylesheets for use with HTML documents published using the [Indigo platform](https://indigo.readthedocs.org).
 They make Akoma Ntoso documents look beautiful.
@@ -9,9 +9,9 @@ They make Akoma Ntoso documents look beautiful.
 
 ### From CDN
 
-Use the assets directly from a CDN:
+Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="//indigo-web.openup.org.za/dist/1.0.1/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@1.0.1/css/akoma-ntoso.min.css">
 
 ### From your server
 
