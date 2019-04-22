@@ -11,7 +11,7 @@ They make Akoma Ntoso documents look beautiful.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@1.0.1/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.0.0/css/akoma-ntoso.min.css">
 
 ### From your server
 
@@ -44,6 +44,7 @@ To build changes:
 
 * update VERSION
 * update version in `package.json`
+* update version in URL in README
 * update Version History (below)
 * build as above
 * tag release: `git tag vX.X.X`
