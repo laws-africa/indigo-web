@@ -52,6 +52,11 @@ To build changes:
 
 # Version history
 
+## 3.0.0 (22 April 2019)
+
+* Correctly support overriding SCSS variables
+* Add PT Serif from Google Fonts as a font fallback. This better supports print environments and Linux systems.
+
 ## 2.0.0 (28 March 2019)
 
 * Show .akn-paragraph as a block
