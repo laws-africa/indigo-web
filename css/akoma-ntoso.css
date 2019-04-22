@@ -7,16 +7,13 @@
 /*
  * Variables
  */
-/* http://www.cssfontstack.com/Palatino */
-/* see http://practicaltypography.com/line-spacing.html */
-/* see http://practicaltypography.com/space-between-paragraphs.html */
-/* generally 2 * $para-spacing */
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i");
 /*
  * Core AKN styles
  */
 .akoma-ntoso {
   /* typography */
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-family: Palatino, "Book Antiqua", "PT Serif", Georgia, serif;
   font-size: 15px;
   line-height: 1.35;
   /* headings */
