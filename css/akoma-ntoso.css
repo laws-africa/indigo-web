@@ -124,7 +124,9 @@
   .akoma-ntoso .akn-def {
     font-weight: bold; }
   .akoma-ntoso .akn-longTitle {
-    font-weight: bold; }
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.8em; }
   .akoma-ntoso .akn-remark {
     font-style: italic; }
   .akoma-ntoso img {
