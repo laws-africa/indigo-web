@@ -96,7 +96,8 @@
       display: block;
       float: left;
       margin-left: -3em; }
-  .akoma-ntoso .akn-content > .akn-p {
+  .akoma-ntoso .akn-listIntroduction,
+  .akoma-ntoso .akn-p {
     display: block;
     margin-bottom: 0.8em; }
   .akoma-ntoso .akn-list > .akn-intro {
@@ -110,9 +111,6 @@
       display: block;
       float: left;
       margin-left: -3em; }
-  .akoma-ntoso .akn-blockList .akn-listIntroduction {
-    display: block;
-    margin-bottom: 0.8em; }
   .akoma-ntoso .akn-blockList > .akn-item {
     display: block;
     margin-left: 3em;
@@ -167,6 +165,8 @@
     border-top: 1px solid #ddd; }
   .akoma-ntoso table th {
     font-weight: bold; }
+  .akoma-ntoso table th > :last-child, .akoma-ntoso table td > :last-child {
+    margin-bottom: 0px; }
   .akoma-ntoso table thead th {
     vertical-align: bottom; }
   .akoma-ntoso table caption + thead tr:first-child th,
