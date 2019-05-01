@@ -11,7 +11,7 @@ They make Akoma Ntoso documents look beautiful.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.1.0/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.2.0/css/akoma-ntoso.min.css">
 
 ### From your server
 
@@ -52,6 +52,11 @@ To build changes:
 * publish to npm: `npm publish --dry-run`
 
 # Version history
+
+## 3.2.0 (1 May 2019)
+
+* display .akn-p elements as blocks with paragraph spacing
+* last child in table cell mustn't have padding
 
 ## 3.1.0 (23 April 2019)
 
