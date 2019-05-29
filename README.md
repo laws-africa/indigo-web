@@ -7,6 +7,14 @@ They make Akoma Ntoso documents look beautiful.
 
 ## Usage
 
+First, wrap your Akoma Ntoso HTML content with the `.akoma-ntoso` class, such as:
+
+```html
+<div class="akoma-ntoso">...</div>
+```
+
+Second, include the CSS as described below.
+
 ### From CDN
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
