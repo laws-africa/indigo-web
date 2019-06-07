@@ -95,7 +95,8 @@
     .akoma-ntoso .akn-paragraph > .akn-num {
       display: block;
       float: left;
-      margin-left: -3em; }
+      margin-left: -3em;
+      margin-right: 0.25em; }
   .akoma-ntoso .akn-listIntroduction,
   .akoma-ntoso .akn-p {
     display: block;
@@ -110,7 +111,8 @@
     .akoma-ntoso .akn-list > .akn-point > .akn-num {
       display: block;
       float: left;
-      margin-left: -3em; }
+      margin-left: -3em;
+      margin-right: 0.25em; }
   .akoma-ntoso .akn-blockList > .akn-item {
     display: block;
     margin-left: 3em;
@@ -118,7 +120,8 @@
     .akoma-ntoso .akn-blockList > .akn-item > .akn-num {
       display: block;
       float: left;
-      margin-left: -3em; }
+      margin-left: -3em;
+      margin-right: 0.25em; }
   .akoma-ntoso .akn-def {
     font-weight: bold; }
   .akoma-ntoso .akn-longTitle {
