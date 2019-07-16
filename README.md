@@ -56,7 +56,7 @@ To build changes:
 * update Version History (below)
 * build as above
 * tag release: `git tag vX.X.X`
-* push to GitHub: `git push origin --tags`
+* push to GitHub: `git push; git push origin --tags`
 * publish to npm: `npm publish --dry-run`
 
 # Version history
