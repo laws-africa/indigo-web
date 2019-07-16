@@ -11,7 +11,7 @@ They make Akoma Ntoso documents look beautiful.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.3.0/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.4.0/css/akoma-ntoso.min.css">
 
 ### From your server
 
@@ -52,6 +52,10 @@ To build changes:
 * publish to npm: `npm publish --dry-run`
 
 # Version history
+
+## 3.4.0 (16 July 2019)
+
+* Styling for new generated verification notice in coverpages
 
 ## 3.3.0 (7 June 2019)
 

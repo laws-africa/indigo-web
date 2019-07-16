@@ -151,6 +151,9 @@
       list-style: none;
       margin-bottom: 0.8em;
       font-style: italic; }
+    .akoma-ntoso .coverpage .verification-notice {
+      margin-top: 0.8em;
+      font-style: italic; }
 
 /*
  * Tables
