@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.4.0/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.5.0/css/akoma-ntoso.min.css">
 
 ### From your server
 
@@ -60,6 +60,10 @@ To build changes:
 * publish to npm: `npm publish --dry-run`
 
 # Version history
+
+## 3.5.0 (17 July 2019)
+
+* Explicit font for h1, h2, h3, h4, h5 tags
 
 ## 3.4.0 (16 July 2019)
 
