@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.5.0/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.6.0/css/akoma-ntoso.min.css">
 
 ### From your server
 
@@ -60,6 +60,12 @@ To build changes:
 * publish to npm: `npm publish --dry-run`
 
 # Version history
+
+## 3.6.0 (19 September 2019)
+
+* Explicit styling for crossHeading elements (italics)
+* hcontainer elements are block elements
+* Reduce spacing between schedule title and headings
 
 ## 3.5.0 (17 July 2019)
 
