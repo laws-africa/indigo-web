@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.6.0/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.6.1/css/akoma-ntoso.min.css">
 
 ### From your server
 
@@ -61,7 +61,7 @@ To build changes:
 
 # Version history
 
-## 3.6.0 (19 September 2019)
+## 3.6.1 (19 September 2019)
 
 * Explicit styling for crossHeading elements (italics)
 * hcontainer elements are block elements
