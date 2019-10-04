@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.6.1/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.7.0/css/akoma-ntoso.min.css">
 
 ### From your server
 
@@ -60,6 +60,11 @@ To build changes:
 * publish to npm: `npm publish --dry-run`
 
 # Version history
+
+## 3.7.0 (4 October 2019)
+
+* Styling for new .as-at-date-notice element on generated coverpage
+* Split out generated coverpage styling into separate file
 
 ## 3.6.1 (19 September 2019)
 
