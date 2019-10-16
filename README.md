@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.7.0/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.8.0/css/akoma-ntoso.min.css">
 
 ### From your server
 
@@ -60,6 +60,11 @@ To build changes:
 * publish to npm: `npm publish --dry-run`
 
 # Version history
+
+## 3.8.0 (16 October 2019)
+
+* Added Kenya (KE) styling
+* KE: remarks are not italicised
 
 ## 3.7.0 (4 October 2019)
 

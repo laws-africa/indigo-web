@@ -199,6 +199,20 @@
     background-color: white; }
 
 /*
+ * Kenya (KE) AKN styles
+ */
+.akoma-ntoso.country-ke .akn-remark {
+  font-style: normal; }
+.akoma-ntoso.country-ke .coverpage .amendment,
+.akoma-ntoso.country-ke .coverpage .verification-notice,
+.akoma-ntoso.country-ke .coverpage .as-at-date-notice {
+  font-style: normal; }
+.akoma-ntoso.country-ke .akn-p > .akn-remark:only-child {
+  display: block;
+  margin-top: 0.8em;
+  text-align: center; }
+
+/*
  * Poland (PL) AKN styles
  */
 .akoma-ntoso.country-pl {
