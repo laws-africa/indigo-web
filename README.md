@@ -64,7 +64,7 @@ To build changes:
 ## 3.8.0 (16 October 2019)
 
 * Added Kenya (KE) styling
-* KE: remarks are not italicised
+* KE: remarks are not italicised, and single-line remarks are centered
 
 ## 3.7.0 (4 October 2019)
 
