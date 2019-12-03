@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.8.0/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.9.0/css/akoma-ntoso.min.css">
 
 ### From your server
 
@@ -60,6 +60,10 @@ To build changes:
 * publish to npm: `npm publish --dry-run`
 
 # Version history
+
+## 3.9.0 (3 December 2019)
+
+* Utilities for aligning text: ``akn--text-left``, ``akn--text-right`` and ``akn--text-center``
 
 ## 3.8.0 (16 October 2019)
 

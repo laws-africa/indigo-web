@@ -1,7 +1,7 @@
 /*
  * Indigo Web CSS for Akoma Ntoso
  *
- * Copyright 2016 Code for South Africa
+ * Copyright 2016 AfricanLII
  * Licensed under the MIT license
  */
 /*
@@ -197,6 +197,16 @@
     border-top: 2px solid #ddd; }
   .akoma-ntoso table .table {
     background-color: white; }
+
+/*
+ * General utilities
+ */
+.akoma-ntoso .akn--text-left {
+  text-align: left; }
+.akoma-ntoso .akn--text-center {
+  text-align: center; }
+.akoma-ntoso .akn--text-right {
+  text-align: right; }
 
 /*
  * Kenya (KE) AKN styles
