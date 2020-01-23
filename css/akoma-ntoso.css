@@ -150,6 +150,11 @@
     padding: 0px; }
     .akoma-ntoso .coverpage .notice-list li {
       list-style: none; }
+  .akoma-ntoso .coverpage .place-name {
+    font-size: 19px;
+    line-height: 1.2;
+    margin-bottom: 0.8em;
+    font-weight: bold; }
   .akoma-ntoso .coverpage .assent-date,
   .akoma-ntoso .coverpage .commencement-date {
     margin-bottom: 0.8em;
