@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.11.0/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.12.0/css/akoma-ntoso.min.css">
 
 ### From your server
 
@@ -60,6 +60,10 @@ To build changes:
 * publish to npm: `npm publish --dry-run`
 
 # Version history
+
+## 3.12.0 (20 March 2020)
+
+* Styling for parent work title on generated coverpage
 
 ## 3.11.0 (25 February 2020)
 
