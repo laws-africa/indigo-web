@@ -61,7 +61,7 @@ To build changes:
 
 # Version history
 
-## 3.13.0 (20 March 2020)
+## 3.13.0 (15 April 2020)
 
 * Cross headings in KE aren't italicised
 
