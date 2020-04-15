@@ -225,7 +225,8 @@
 /*
  * Kenya (KE) AKN styles
  */
-.akoma-ntoso.country-ke .akn-remark {
+.akoma-ntoso.country-ke .akn-remark,
+.akoma-ntoso.country-ke .akn-crossHeading {
   font-style: normal; }
 .akoma-ntoso.country-ke .coverpage .amendment,
 .akoma-ntoso.country-ke .coverpage .verification-notice,
