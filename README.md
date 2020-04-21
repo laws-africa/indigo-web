@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.13.0/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@4.0.0/css/indigo-web.min.css">
 
 ### From your server
 
@@ -29,11 +29,11 @@ Install indigo-web using npm:
 
 Then use either the compiled CSS:
 
-    <link rel="stylesheet" type="text/css" href="indigo-web/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="indigo-web/css/indigo-web.min.css">
 
 Or use the SCSS files:
 
-    @import 'indigo-web/scss/akoma-ntoso';
+    @import 'indigo-web/scss/indigo-web';
 
 ## Overriding variables
 
@@ -60,6 +60,11 @@ To build changes:
 * publish to npm: `npm publish --dry-run`
 
 # Version history
+
+## 4.0.0 (21 April 2020)
+
+* BREAKING: akoma-ntoso.scss is now indigo-web.scss
+* BREAKING: akoma-ntoso.css is now indigo-web.css
 
 ## 3.13.0 (15 April 2020)
 

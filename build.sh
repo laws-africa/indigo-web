@@ -2,5 +2,5 @@
 set -e
 set -x
 
-sass --style compressed scss/akoma-ntoso.scss css/akoma-ntoso.min.css
-sass scss/akoma-ntoso.scss css/akoma-ntoso.css
+sass --style compressed scss/indigo-web.scss css/indigo-web.min.css
+sass scss/indigo-web.scss css/indigo-web.css
