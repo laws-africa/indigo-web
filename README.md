@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@4.0.0/css/indigo-web.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@5.0.0/css/indigo-web.min.css">
 
 ### From your server
 
@@ -60,6 +60,12 @@ To build changes:
 * publish to npm: `npm publish --dry-run`
 
 # Version history
+
+## 5.0.0 (4 June 2020)
+
+This version assumes AKN 3.0 documents from Indigo.
+
+* Attachments (schedules) should not have italicised headings
 
 ## 4.0.0 (21 April 2020)
 
