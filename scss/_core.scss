@@ -182,4 +182,19 @@
   img {
     max-width: 100%;
   }
+
+  /* footnotes*/
+  .akn-authorialNote {
+    display: flex;
+    font-size: small;
+    margin-top: $akn-para-spacing;
+    margin-bottom: $akn-section-spacing;
+
+    & > .akn-authorialNote--marker {
+      margin-right: $akn-para-indent / 2;
+    }
+  }
+  .akn-authorialNote + .akn-authorialNote {
+    margin-top: -$akn-section-spacing;
+  }
 }
