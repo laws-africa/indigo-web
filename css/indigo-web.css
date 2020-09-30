@@ -270,5 +270,14 @@
 /*
  * South Africa (ZA) AKN styles
  */
+/*
+ * UN AKN styles
+ */
+.akoma-ntoso.country-un .akn-authorialNote {
+  display: flex;
+  font-size: small;
+  margin-top: 0.5em; }
+  .akoma-ntoso.country-un .akn-authorialNote > .akn-authorialNote--marker {
+    margin-right: 0.5em; }
 
 /*# sourceMappingURL=indigo-web.css.map */
