@@ -61,6 +61,12 @@ To build changes:
 
 # Version history
 
+## 5.1.0 (12 October 2020)
+
+* Support for footnotes
+* Support for embeddedStructures
+* Support for headings for subsections, paragraphs and subparagraphs
+
 ## 5.0.0 (4 June 2020)
 
 This version assumes AKN 3.0 documents from Indigo.
