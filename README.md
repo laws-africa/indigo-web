@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@5.1.0/css/indigo-web.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@5.1.1/css/indigo-web.min.css">
 
 ### From your server
 
@@ -60,6 +60,10 @@ To build changes:
 * publish to npm: `npm publish --dry-run`
 
 # Version history
+
+## 5.1.1 (23 March 2021)
+
+* Support for commencement note on coverpage
 
 ## 5.1.0 (12 October 2020)
 
