@@ -61,7 +61,7 @@ To build changes:
 
 # Version history
 
-## 5.2.0 (28 May 2021)
+## 5.2.0 (31 May 2021)
 
 * Namibia (na) formatting
 
