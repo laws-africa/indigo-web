@@ -260,7 +260,34 @@
 .akoma-ntoso.country-ke .coverpage .verification-notice,
 .akoma-ntoso.country-ke .coverpage .as-at-date-notice {
   font-style: normal; }
+.akoma-ntoso.country-ke .akn-listIntroduction > .akn-remark:only-child,
 .akoma-ntoso.country-ke .akn-p > .akn-remark:only-child {
+  display: block;
+  margin-top: 0.8em;
+  text-align: center; }
+
+/*
+ * Namibia (NA) AKN styles
+ */
+.akoma-ntoso.country-na .coverpage .amendment-list,
+.akoma-ntoso.country-na .coverpage .commencement-date,
+.akoma-ntoso.country-na .coverpage .verification-notice,
+.akoma-ntoso.country-na .coverpage .as-at-date-notice,
+.akoma-ntoso.country-na .coverpage .assent-date {
+  font-style: normal;
+  font-weight: bold;
+  color: #00b156; }
+.akoma-ntoso.country-na .coverpage .as-at-date-notice,
+.akoma-ntoso.country-na .coverpage .amendment,
+.akoma-ntoso.country-na .coverpage .commencement-note,
+.akoma-ntoso.country-na .coverpage .verification-notice {
+  font-style: normal; }
+.akoma-ntoso.country-na .akn-remark {
+  font-style: normal;
+  font-weight: bold;
+  color: #00b156; }
+.akoma-ntoso.country-na .akn-p > .akn-remark:only-child,
+.akoma-ntoso.country-na .akn-listIntroduction > .akn-remark:only-child {
   display: block;
   margin-top: 0.8em;
   text-align: center; }
