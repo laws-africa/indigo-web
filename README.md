@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@5.2.0/css/indigo-web.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@5.2.1/css/indigo-web.min.css">
 
 ### From your server
 
@@ -60,6 +60,10 @@ To build changes:
 * publish to npm: `npm publish --dry-run`
 
 # Version history
+
+## 5.2.1 (27 October 2021)
+
+* Bulleted lists
 
 ## 5.2.0 (31 May 2021)
 
