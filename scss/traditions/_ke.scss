@@ -1,8 +1,8 @@
-/*
- * Kenya (KE) AKN styles
- */
+@mixin tradition-ke {
+  /*
+   * Kenya (KE) AKN styles
+   */
 
-.akoma-ntoso.country-ke {
   // crossheadings, remarks and editorial comments aren't italicised
   .akn-remark,
   .akn-crossHeading {
