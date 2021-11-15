@@ -44,8 +44,8 @@ their values.
 
 To build changes:
 
-* gem install sass
-* ./build.sh
+* npm install
+* npm run build
 * git add css/*
 
 ## Release process
