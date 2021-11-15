@@ -1,9 +1,4 @@
-/*
- * Core AKN styles
- */
-
-.akoma-ntoso {
-
+@mixin core {
   /* typography */
   font-family: $akn-font-family;
   font-size: $akn-font-size;

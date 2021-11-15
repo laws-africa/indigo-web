@@ -1,3 +1,5 @@
+@import "mixins/index";
+
 /*
  * Indigo Web CSS for Akoma Ntoso
  *
@@ -5,12 +7,24 @@
  * Licensed under the MIT license
  */
 
-@import "custom";
 @import "variables";
-@import "core";
-@import "coverpage";
-@import "tables";
-@import "utilities";
 
-// tradition-specific styles
-@import "traditions";
+
+.akoma-ntoso {
+  &.country-ke {
+    @include tradition-ke;
+  }
+
+  &.country-na {
+    @include tradition-na;
+  }
+
+  &.country-pl {
+    @include tradition-pl;
+  }
+
+  @include core;
+  @include coverpage;
+  @include tables;
+  @include utilities;
+}

@@ -1,8 +1,4 @@
-/*
- * Tables
- */
-
-.akoma-ntoso {
+@mixin tables {
   table {
     width: 100%;
     margin-bottom: $akn-section-spacing;
