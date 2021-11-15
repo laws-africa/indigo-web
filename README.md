@@ -61,6 +61,11 @@ To build changes:
 
 # Version history
 
+## 5.2.2 (15 November 2021)
+* Move all styling into mixins,so other libraries can include our mixins and include them in their 
+  own top-level selectors
+* Replace ruby sass with npm sass   
+
 ## 5.2.1 (27 October 2021)
 
 * Bulleted lists
