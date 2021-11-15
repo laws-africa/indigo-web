@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@5.2.2/css/indigo-web.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@6.0.0/css/indigo-web.min.css">
 
 ### From your server
 
@@ -34,11 +34,6 @@ Then use either the compiled CSS:
 Or use the SCSS files:
 
     @import 'indigo-web/scss/indigo-web';
-
-## Overriding variables
-
-You can override variables when using SCSS by copying them from ``_variables.scss`` into ``_custom.scss`` and changing
-their values.
 
 ## Building
 
@@ -61,7 +56,7 @@ To build changes:
 
 # Version history
 
-## 5.2.2 (15 November 2021)
+## 6.0.0 (15 November 2021)
 * Move all styling into mixins, so other libraries can include our mixins and include them in their 
   own top-level selectors
 * Replace ruby sass with npm sass   
