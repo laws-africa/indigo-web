@@ -8,9 +8,6 @@
  * Variables
  */
 @import url("https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i");
-/*
- * Core AKN styles
- */
 .akoma-ntoso {
   /* typography */
   font-family: Palatino, "Book Antiqua", "PT Serif", Georgia, serif;
@@ -27,6 +24,70 @@
   /* inline elements */
   /* footnotes */
   /* quotes */ }
+  .akoma-ntoso.country-ke {
+    /*
+     * Kenya (KE) AKN styles
+     */ }
+    .akoma-ntoso.country-ke .akn-remark,
+    .akoma-ntoso.country-ke .akn-crossHeading {
+      font-style: normal; }
+    .akoma-ntoso.country-ke .coverpage .amendment,
+    .akoma-ntoso.country-ke .coverpage .verification-notice,
+    .akoma-ntoso.country-ke .coverpage .as-at-date-notice {
+      font-style: normal; }
+    .akoma-ntoso.country-ke .akn-listIntroduction > .akn-remark:only-child,
+    .akoma-ntoso.country-ke .akn-p > .akn-remark:only-child {
+      display: block;
+      margin-top: 0.8em;
+      text-align: center; }
+  .akoma-ntoso.country-na .coverpage .amendment-list,
+  .akoma-ntoso.country-na .coverpage .commencement-date,
+  .akoma-ntoso.country-na .coverpage .verification-notice,
+  .akoma-ntoso.country-na .coverpage .as-at-date-notice,
+  .akoma-ntoso.country-na .coverpage .assent-date {
+    font-style: normal;
+    font-weight: bold;
+    color: #00b156; }
+  .akoma-ntoso.country-na .coverpage .as-at-date-notice,
+  .akoma-ntoso.country-na .coverpage .amendment,
+  .akoma-ntoso.country-na .coverpage .commencement-note,
+  .akoma-ntoso.country-na .coverpage .verification-notice {
+    font-style: normal; }
+  .akoma-ntoso.country-na .akn-remark {
+    font-style: normal;
+    font-weight: bold;
+    color: #00b156; }
+  .akoma-ntoso.country-na .akn-p > .akn-remark:only-child,
+  .akoma-ntoso.country-na .akn-listIntroduction > .akn-remark:only-child {
+    display: block;
+    margin-top: 0.8em;
+    text-align: center; }
+  .akoma-ntoso.country-pl {
+    /* paragraph elements */
+    /* numbered block elements */ }
+    .akoma-ntoso.country-pl .coverpage .doctype {
+      text-transform: uppercase; }
+    .akoma-ntoso.country-pl .akn-intro,
+    .akoma-ntoso.country-pl .akn-list,
+    .akoma-ntoso.country-pl .akn-paragraph,
+    .akoma-ntoso.country-pl .akn-point {
+      margin-bottom: 0.8em; }
+    .akoma-ntoso.country-pl .akn-alinea,
+    .akoma-ntoso.country-pl .akn-indent,
+    .akoma-ntoso.country-pl .akn-paragraph,
+    .akoma-ntoso.country-pl .akn-point {
+      margin-left: 3em; }
+      .akoma-ntoso.country-pl .akn-alinea > .akn-num,
+      .akoma-ntoso.country-pl .akn-alinea > .akn-indent-num,
+      .akoma-ntoso.country-pl .akn-indent > .akn-num,
+      .akoma-ntoso.country-pl .akn-indent > .akn-indent-num,
+      .akoma-ntoso.country-pl .akn-paragraph > .akn-num,
+      .akoma-ntoso.country-pl .akn-paragraph > .akn-indent-num,
+      .akoma-ntoso.country-pl .akn-point > .akn-num,
+      .akoma-ntoso.country-pl .akn-point > .akn-indent-num {
+        display: block;
+        float: left;
+        margin-left: -3em; }
   .akoma-ntoso h1,
   .akoma-ntoso h2,
   .akoma-ntoso h3,
@@ -175,156 +236,77 @@
       content: attr(data-startQuote);
       margin-left: -0.5em;
       float: left; }
-
-/*
- * Generated coverpage elements
- */
-.akoma-ntoso .coverpage {
-  text-align: center;
-  margin-bottom: 1.6em; }
-  .akoma-ntoso .coverpage .notice-list {
-    margin: 0px;
-    padding: 0px; }
-    .akoma-ntoso .coverpage .notice-list li {
-      list-style: none; }
-  .akoma-ntoso .coverpage .place-name,
-  .akoma-ntoso .coverpage .parent-work {
-    font-size: 19px;
-    line-height: 1.2;
-    margin-bottom: 0.8em;
-    font-weight: bold; }
-  .akoma-ntoso .coverpage .assent-date,
-  .akoma-ntoso .coverpage .commencement-date {
-    margin-bottom: 0.8em;
-    font-weight: bold; }
-  .akoma-ntoso .coverpage .commencement-date-list {
-    margin-bottom: 0.8em; }
-  .akoma-ntoso .coverpage .commencement-date-uncommenced {
-    margin-bottom: 0.8em;
-    font-weight: bold; }
-  .akoma-ntoso .coverpage .commencements-table {
-    margin: auto;
-    max-width: 80%; }
-  .akoma-ntoso .coverpage .amendment-list {
-    margin-top: 1.6em;
-    padding: 0px; }
-  .akoma-ntoso .coverpage .amendment {
-    list-style: none;
-    margin-bottom: 0.8em;
-    font-style: italic; }
-  .akoma-ntoso .coverpage .commencement-note,
-  .akoma-ntoso .coverpage .verification-notice,
-  .akoma-ntoso .coverpage .as-at-date-notice {
-    margin-top: 0.8em;
-    font-style: italic; }
-
-/*
- * Tables
- */
-.akoma-ntoso table {
-  width: 100%;
-  margin-bottom: 1.6em;
-  border: 1px solid #ddd; }
-  .akoma-ntoso table th,
-  .akoma-ntoso table td {
-    border-left: 1px solid #ddd;
-    padding: 5px;
-    text-align: left;
-    vertical-align: top;
-    border-top: 1px solid #ddd; }
-  .akoma-ntoso table th {
-    font-weight: bold; }
-  .akoma-ntoso table th > :last-child, .akoma-ntoso table td > :last-child {
-    margin-bottom: 0px; }
-  .akoma-ntoso table thead th {
-    vertical-align: bottom; }
-  .akoma-ntoso table caption + thead tr:first-child th,
-  .akoma-ntoso table caption + thead tr:first-child td,
-  .akoma-ntoso table colgroup + thead tr:first-child th,
-  .akoma-ntoso table colgroup + thead tr:first-child td,
-  .akoma-ntoso table thead:first-child tr:first-child th,
-  .akoma-ntoso table thead:first-child tr:first-child td {
-    border-top: 0; }
-  .akoma-ntoso table tbody + tbody {
-    border-top: 2px solid #ddd; }
-  .akoma-ntoso table .table {
-    background-color: white; }
-
-/*
- * General utilities
- */
-.akoma-ntoso .akn--text-left {
-  text-align: left; }
-.akoma-ntoso .akn--text-center {
-  text-align: center; }
-.akoma-ntoso .akn--text-right {
-  text-align: right; }
-
-.akoma-ntoso.country-ke {
-  /*
-   * Kenya (KE) AKN styles
-   */ }
-  .akoma-ntoso.country-ke .akn-remark,
-  .akoma-ntoso.country-ke .akn-crossHeading {
-    font-style: normal; }
-  .akoma-ntoso.country-ke .coverpage .amendment,
-  .akoma-ntoso.country-ke .coverpage .verification-notice,
-  .akoma-ntoso.country-ke .coverpage .as-at-date-notice {
-    font-style: normal; }
-  .akoma-ntoso.country-ke .akn-listIntroduction > .akn-remark:only-child,
-  .akoma-ntoso.country-ke .akn-p > .akn-remark:only-child {
-    display: block;
-    margin-top: 0.8em;
+  .akoma-ntoso .coverpage {
+    text-align: center;
+    margin-bottom: 1.6em; }
+    .akoma-ntoso .coverpage .notice-list {
+      margin: 0px;
+      padding: 0px; }
+      .akoma-ntoso .coverpage .notice-list li {
+        list-style: none; }
+    .akoma-ntoso .coverpage .place-name,
+    .akoma-ntoso .coverpage .parent-work {
+      font-size: 19px;
+      line-height: 1.2;
+      margin-bottom: 0.8em;
+      font-weight: bold; }
+    .akoma-ntoso .coverpage .assent-date,
+    .akoma-ntoso .coverpage .commencement-date {
+      margin-bottom: 0.8em;
+      font-weight: bold; }
+    .akoma-ntoso .coverpage .commencement-date-list {
+      margin-bottom: 0.8em; }
+    .akoma-ntoso .coverpage .commencement-date-uncommenced {
+      margin-bottom: 0.8em;
+      font-weight: bold; }
+    .akoma-ntoso .coverpage .commencements-table {
+      margin: auto;
+      max-width: 80%; }
+    .akoma-ntoso .coverpage .amendment-list {
+      margin-top: 1.6em;
+      padding: 0px; }
+    .akoma-ntoso .coverpage .amendment {
+      list-style: none;
+      margin-bottom: 0.8em;
+      font-style: italic; }
+    .akoma-ntoso .coverpage .commencement-note,
+    .akoma-ntoso .coverpage .verification-notice,
+    .akoma-ntoso .coverpage .as-at-date-notice {
+      margin-top: 0.8em;
+      font-style: italic; }
+  .akoma-ntoso table {
+    width: 100%;
+    margin-bottom: 1.6em;
+    border: 1px solid #ddd; }
+    .akoma-ntoso table th,
+    .akoma-ntoso table td {
+      border-left: 1px solid #ddd;
+      padding: 5px;
+      text-align: left;
+      vertical-align: top;
+      border-top: 1px solid #ddd; }
+    .akoma-ntoso table th {
+      font-weight: bold; }
+    .akoma-ntoso table th > :last-child, .akoma-ntoso table td > :last-child {
+      margin-bottom: 0px; }
+    .akoma-ntoso table thead th {
+      vertical-align: bottom; }
+    .akoma-ntoso table caption + thead tr:first-child th,
+    .akoma-ntoso table caption + thead tr:first-child td,
+    .akoma-ntoso table colgroup + thead tr:first-child th,
+    .akoma-ntoso table colgroup + thead tr:first-child td,
+    .akoma-ntoso table thead:first-child tr:first-child th,
+    .akoma-ntoso table thead:first-child tr:first-child td {
+      border-top: 0; }
+    .akoma-ntoso table tbody + tbody {
+      border-top: 2px solid #ddd; }
+    .akoma-ntoso table .table {
+      background-color: white; }
+  .akoma-ntoso .akn--text-left {
+    text-align: left; }
+  .akoma-ntoso .akn--text-center {
     text-align: center; }
-
-.akoma-ntoso.country-na .coverpage .amendment-list,
-.akoma-ntoso.country-na .coverpage .commencement-date,
-.akoma-ntoso.country-na .coverpage .verification-notice,
-.akoma-ntoso.country-na .coverpage .as-at-date-notice,
-.akoma-ntoso.country-na .coverpage .assent-date {
-  font-style: normal;
-  font-weight: bold;
-  color: #00b156; }
-.akoma-ntoso.country-na .coverpage .as-at-date-notice,
-.akoma-ntoso.country-na .coverpage .amendment,
-.akoma-ntoso.country-na .coverpage .commencement-note,
-.akoma-ntoso.country-na .coverpage .verification-notice {
-  font-style: normal; }
-.akoma-ntoso.country-na .akn-remark {
-  font-style: normal;
-  font-weight: bold;
-  color: #00b156; }
-.akoma-ntoso.country-na .akn-p > .akn-remark:only-child,
-.akoma-ntoso.country-na .akn-listIntroduction > .akn-remark:only-child {
-  display: block;
-  margin-top: 0.8em;
-  text-align: center; }
-
-.akoma-ntoso.country-pl {
-  /* paragraph elements */
-  /* numbered block elements */ }
-  .akoma-ntoso.country-pl .coverpage .doctype {
-    text-transform: uppercase; }
-  .akoma-ntoso.country-pl .akn-intro,
-  .akoma-ntoso.country-pl .akn-list,
-  .akoma-ntoso.country-pl .akn-paragraph,
-  .akoma-ntoso.country-pl .akn-point {
-    margin-bottom: 0.8em; }
-  .akoma-ntoso.country-pl .akn-alinea,
-  .akoma-ntoso.country-pl .akn-indent,
-  .akoma-ntoso.country-pl .akn-paragraph,
-  .akoma-ntoso.country-pl .akn-point {
-    margin-left: 3em; }
-    .akoma-ntoso.country-pl .akn-alinea > .akn-num,
-    .akoma-ntoso.country-pl .akn-alinea > .akn-indent-num,
-    .akoma-ntoso.country-pl .akn-indent > .akn-num,
-    .akoma-ntoso.country-pl .akn-indent > .akn-indent-num,
-    .akoma-ntoso.country-pl .akn-paragraph > .akn-num,
-    .akoma-ntoso.country-pl .akn-paragraph > .akn-indent-num,
-    .akoma-ntoso.country-pl .akn-point > .akn-num,
-    .akoma-ntoso.country-pl .akn-point > .akn-indent-num {
-      display: block;
-      float: left;
-      margin-left: -3em; }
+  .akoma-ntoso .akn--text-right {
+    text-align: right; }
 
 /*# sourceMappingURL=indigo-web.css.map */
