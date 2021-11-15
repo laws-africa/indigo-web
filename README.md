@@ -44,6 +44,7 @@ their values.
 
 To build changes:
 
+* npm install
 * npm run build
 * git add css/*
 
