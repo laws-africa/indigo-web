@@ -1,6 +1,6 @@
-@import "traditions/ke";
-@import "traditions/na";
-@import "traditions/pl";
+@import "mixins/traditions/ke";
+@import "mixins/traditions/na";
+@import "mixins/traditions/pl";
 
 .akoma-ntoso.country-ke {
   @include tradition-ke;
