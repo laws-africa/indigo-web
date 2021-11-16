@@ -1,4 +1,10 @@
 @mixin tables {
+  .akn--table-container {
+    // scroll tables horizontally on small screens
+    max-width: 100%;
+    overflow-y: auto;
+  }
+
   table {
     width: 100%;
     margin-bottom: $akn-section-spacing;
