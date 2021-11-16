@@ -56,6 +56,10 @@ To build changes:
 
 # Version history
 
+## 6.1.0 (?)
+
+* Scroll tables horizontally on small displays
+
 ## 6.0.0 (15 November 2021)
 * Move all styling into mixins, so other libraries can include our mixins and include them in their 
   own top-level selectors
