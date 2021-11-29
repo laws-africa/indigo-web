@@ -1,5 +1,9 @@
-@import "traditions/index";
+@import "blocks";
 @import "core";
 @import "coverpage";
+@import "hierarchical";
+@import "inlines";
 @import "tables";
 @import "utilities";
+
+@import "traditions/index";

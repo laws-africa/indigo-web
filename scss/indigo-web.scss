@@ -24,6 +24,7 @@
   }
 
   @include core;
+  @include hierarchical;
   @include coverpage;
   @include tables;
   @include utilities;
