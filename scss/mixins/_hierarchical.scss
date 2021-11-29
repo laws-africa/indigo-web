@@ -1,0 +1,60 @@
+@mixin hierarchical {
+  .akn-act,
+  .akn-akomaNtoso,
+  .akn-article,
+  .akn-blockList,
+  .akn-chapter,
+  .akn-conclusions,
+  .akn-coverPage,
+  .akn-crossHeading,
+  .akn-division,
+  .akn-hcontainer,
+  .akn-heading,
+  .akn-list,
+  .akn-paragraph,
+  .akn-part,
+  .akn-point,
+  .akn-preamble,
+  .akn-preface,
+  .akn-section,
+  .akn-subdivision,
+  .akn-subheading,
+  .akn-subsection {
+    display: block;
+  }
+
+  .akn-article,
+  .akn-chapter,
+  .akn-division,
+  .akn-part,
+  .akn-section,
+  .akn-subdivision {
+    margin-bottom: $akn-section-spacing;
+  }
+
+  /* Indent list-like containers that have margin numbers.
+     For the exception where these are not numbered, .akn--no-indent is applied to override the indent. */
+  .akn-subsection,
+  .akn-paragraph,
+  .akn-subparagraph {
+    margin-left: $akn-para-indent;
+    margin-bottom: $akn-para-spacing;
+
+    &.akn--no-indent {
+      margin-left: 0px;
+    }
+
+    &> .akn-num {
+      display: block;
+      float: left;
+      margin-left: -$akn-para-indent;
+      margin-right: 0.25em;
+    }
+
+    &> .akn-heading {
+      font-size: inherit;
+      text-align: inherit;
+      line-height: inherit;
+    }
+  }
+}
