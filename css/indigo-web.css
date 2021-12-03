@@ -9,21 +9,18 @@
  */
 @import url("https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i");
 .akoma-ntoso {
+  /* lists (mostly used in definitions) */
+  /* blocklists */
+  /* bulleted lists */
+  /* footnotes */
+  /* quotes */
   /* typography */
   font-family: Palatino, "Book Antiqua", "PT Serif", Georgia, serif;
   font-size: 15px;
   line-height: 1.35;
-  /* headings */
-  /* block containers */
   /* Schedules and attachments */
   /* Indent list-like containers that have margin numbers.
      For the exception where these are not numbered, .akn--no-indent is applied to override the indent. */
-  /* lists (mostly used in definitions) */
-  /* blocklists */
-  /* bulleted lists */
-  /* inline elements */
-  /* footnotes */
-  /* quotes */
 }
 .akoma-ntoso.country-ke {
   /*
@@ -102,63 +99,6 @@
   float: left;
   margin-left: -3em;
 }
-.akoma-ntoso h1,
-.akoma-ntoso h2,
-.akoma-ntoso h3,
-.akoma-ntoso h4,
-.akoma-ntoso h5,
-.akoma-ntoso .akn-heading {
-  margin-top: 0px;
-  margin-bottom: 0.8em;
-  font-family: Palatino, "Book Antiqua", "PT Serif", Georgia, serif;
-  font-weight: bold;
-}
-.akoma-ntoso h1 {
-  font-size: 26px;
-  line-height: 1.2;
-}
-.akoma-ntoso h2,
-.akoma-ntoso .akn-heading {
-  text-align: center;
-  font-size: 19px;
-  line-height: 1.2;
-}
-.akoma-ntoso h3 {
-  font-size: 18px;
-  line-height: 1.35;
-}
-.akoma-ntoso h4 {
-  font-size: 15px;
-  line-height: 1.35;
-}
-.akoma-ntoso .akn-subheading,
-.akoma-ntoso .akn-crossHeading {
-  text-align: center;
-  font-style: italic;
-}
-.akoma-ntoso .akn-act,
-.akoma-ntoso .akn-akomaNtoso,
-.akoma-ntoso .akn-article,
-.akoma-ntoso .akn-blockList,
-.akoma-ntoso .akn-chapter,
-.akoma-ntoso .akn-conclusions,
-.akoma-ntoso .akn-coverPage,
-.akoma-ntoso .akn-crossHeading,
-.akoma-ntoso .akn-division,
-.akoma-ntoso .akn-hcontainer,
-.akoma-ntoso .akn-heading,
-.akoma-ntoso .akn-list,
-.akoma-ntoso .akn-paragraph,
-.akoma-ntoso .akn-part,
-.akoma-ntoso .akn-point,
-.akoma-ntoso .akn-preamble,
-.akoma-ntoso .akn-preface,
-.akoma-ntoso .akn-section,
-.akoma-ntoso .akn-subdivision,
-.akoma-ntoso .akn-subheading,
-.akoma-ntoso .akn-subsection {
-  display: block;
-}
 .akoma-ntoso .akn-preface,
 .akoma-ntoso .akn-preamble {
   margin-bottom: 1.6em;
@@ -167,43 +107,6 @@
 .akoma-ntoso .akn-preamble > .akn-p {
   display: block;
   margin-bottom: 0.8em;
-}
-.akoma-ntoso .akn-article,
-.akoma-ntoso .akn-chapter,
-.akoma-ntoso .akn-division,
-.akoma-ntoso .akn-part,
-.akoma-ntoso .akn-section,
-.akoma-ntoso .akn-subdivision {
-  margin-bottom: 1.6em;
-}
-.akoma-ntoso .akn-attachment > .akn-subheading {
-  font-style: normal;
-}
-.akoma-ntoso .akn-subsection,
-.akoma-ntoso .akn-paragraph,
-.akoma-ntoso .akn-subparagraph {
-  margin-left: 3em;
-  margin-bottom: 0.8em;
-}
-.akoma-ntoso .akn-subsection.akn--no-indent,
-.akoma-ntoso .akn-paragraph.akn--no-indent,
-.akoma-ntoso .akn-subparagraph.akn--no-indent {
-  margin-left: 0px;
-}
-.akoma-ntoso .akn-subsection > .akn-num,
-.akoma-ntoso .akn-paragraph > .akn-num,
-.akoma-ntoso .akn-subparagraph > .akn-num {
-  display: block;
-  float: left;
-  margin-left: -3em;
-  margin-right: 0.25em;
-}
-.akoma-ntoso .akn-subsection > .akn-heading,
-.akoma-ntoso .akn-paragraph > .akn-heading,
-.akoma-ntoso .akn-subparagraph > .akn-heading {
-  font-size: inherit;
-  text-align: inherit;
-  line-height: inherit;
 }
 .akoma-ntoso .akn-listIntroduction,
 .akoma-ntoso .akn-p {
@@ -246,20 +149,6 @@
 .akoma-ntoso .akn-li {
   display: list-item;
   margin-bottom: 0.8em;
-}
-.akoma-ntoso .akn-def {
-  font-weight: bold;
-}
-.akoma-ntoso .akn-longTitle {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 0.8em;
-}
-.akoma-ntoso .akn-remark {
-  font-style: italic;
-}
-.akoma-ntoso img {
-  max-width: 100%;
 }
 .akoma-ntoso .akn-authorialNote {
   display: flex;
@@ -330,6 +219,114 @@
 .akoma-ntoso .coverpage .as-at-date-notice {
   margin-top: 0.8em;
   font-style: italic;
+}
+.akoma-ntoso h1,
+.akoma-ntoso h2,
+.akoma-ntoso h3,
+.akoma-ntoso h4,
+.akoma-ntoso h5,
+.akoma-ntoso .akn-heading {
+  margin-top: 0px;
+  margin-bottom: 0.8em;
+  font-family: Palatino, "Book Antiqua", "PT Serif", Georgia, serif;
+  font-weight: bold;
+}
+.akoma-ntoso h1 {
+  font-size: 26px;
+  line-height: 1.2;
+}
+.akoma-ntoso h2,
+.akoma-ntoso .akn-heading {
+  text-align: center;
+  font-size: 19px;
+  line-height: 1.2;
+}
+.akoma-ntoso h3 {
+  font-size: 18px;
+  line-height: 1.35;
+}
+.akoma-ntoso h4 {
+  font-size: 15px;
+  line-height: 1.35;
+}
+.akoma-ntoso .akn-subheading,
+.akoma-ntoso .akn-crossHeading {
+  text-align: center;
+  font-style: italic;
+}
+.akoma-ntoso .akn-attachment > .akn-subheading {
+  font-style: normal;
+}
+.akoma-ntoso .akn-act,
+.akoma-ntoso .akn-akomaNtoso,
+.akoma-ntoso .akn-article,
+.akoma-ntoso .akn-blockList,
+.akoma-ntoso .akn-chapter,
+.akoma-ntoso .akn-conclusions,
+.akoma-ntoso .akn-coverPage,
+.akoma-ntoso .akn-crossHeading,
+.akoma-ntoso .akn-division,
+.akoma-ntoso .akn-hcontainer,
+.akoma-ntoso .akn-heading,
+.akoma-ntoso .akn-list,
+.akoma-ntoso .akn-paragraph,
+.akoma-ntoso .akn-part,
+.akoma-ntoso .akn-point,
+.akoma-ntoso .akn-preamble,
+.akoma-ntoso .akn-preface,
+.akoma-ntoso .akn-section,
+.akoma-ntoso .akn-subdivision,
+.akoma-ntoso .akn-subheading,
+.akoma-ntoso .akn-subsection {
+  display: block;
+}
+.akoma-ntoso .akn-article,
+.akoma-ntoso .akn-chapter,
+.akoma-ntoso .akn-division,
+.akoma-ntoso .akn-part,
+.akoma-ntoso .akn-section,
+.akoma-ntoso .akn-subdivision {
+  margin-bottom: 1.6em;
+}
+.akoma-ntoso .akn-subsection,
+.akoma-ntoso .akn-paragraph,
+.akoma-ntoso .akn-subparagraph {
+  margin-left: 3em;
+  margin-bottom: 0.8em;
+}
+.akoma-ntoso .akn-subsection.akn--no-indent,
+.akoma-ntoso .akn-paragraph.akn--no-indent,
+.akoma-ntoso .akn-subparagraph.akn--no-indent {
+  margin-left: 0px;
+}
+.akoma-ntoso .akn-subsection > .akn-num,
+.akoma-ntoso .akn-paragraph > .akn-num,
+.akoma-ntoso .akn-subparagraph > .akn-num {
+  display: block;
+  float: left;
+  margin-left: -3em;
+  margin-right: 0.25em;
+}
+.akoma-ntoso .akn-subsection > .akn-heading,
+.akoma-ntoso .akn-paragraph > .akn-heading,
+.akoma-ntoso .akn-subparagraph > .akn-heading {
+  font-size: inherit;
+  text-align: inherit;
+  line-height: inherit;
+}
+.akoma-ntoso .akn-def {
+  font-weight: bold;
+}
+.akoma-ntoso .akn-longTitle {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.8em;
+}
+.akoma-ntoso .akn-remark {
+  font-style: italic;
+}
+.akoma-ntoso img {
+  max-width: 100%;
 }
 .akoma-ntoso .akn--table-container {
   max-width: 100%;

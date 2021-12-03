@@ -1,4 +1,4 @@
-@import "mixins/index";
+@import "mixins";
 
 /*
  * Indigo Web CSS for Akoma Ntoso
@@ -23,9 +23,13 @@
     @include tradition-pl;
   }
 
+  @include blocks;
   @include core;
   @include hierarchical;
   @include coverpage;
+  @include headings;
+  @include hierarchical;
+  @include inlines;
   @include tables;
   @include utilities;
 }
