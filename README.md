@@ -43,6 +43,12 @@ To build changes:
 * npm run build
 * git add css/*
 
+## Testing
+
+To run screenshot-based tests:
+
+* npm run test
+
 ## Release process
 
 * update VERSION
@@ -50,6 +56,7 @@ To build changes:
 * update version in URL in README
 * update Version History (below)
 * build as above
+* test: `npm run test`
 * tag release: `git tag vX.X.X`
 * push to GitHub: `git push; git push origin --tags`
 * publish to npm: `npm publish --dry-run`
