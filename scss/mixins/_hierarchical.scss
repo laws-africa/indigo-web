@@ -2,7 +2,13 @@
   @each $elem in $akn-elements-hier {
     .akn-#{$elem} {
       display: block;
-      margin-bottom: $akn-section-spacing;
+
+      @if $elem == 'hcontainer' {
+        // hcontainers are treated like paragraphs, rather than major basic units
+        margin-bottom: $akn-para-spacing;
+      } @else {
+        margin-bottom: $akn-section-spacing;
+      }
     }
   }
 
