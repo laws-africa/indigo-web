@@ -13,7 +13,7 @@ test('primary styling', async function () {
   expect(image).toMatchImageSnapshot(config);
 });
 
-test('attachments', async function () {
+test('attachmentsx', async function () {
   await page.goto(`file://${__dirname}/attachments.html`, { waitUntil: 'domcontentloaded' });
   const image = await page.screenshot();
   expect(image).toMatchImageSnapshot(config);
