@@ -18,6 +18,8 @@ CHAPTER 1 - A Chapter Heading
 
     (b) sub 1(1)(a)
 
+(2) Subsection 2 with plain text.
+
 CROSSHEADING A crossheading
 
 2. Section Two
@@ -34,6 +36,8 @@ Intro text.
     (b) sub 1(1)(a)
 
 Wrap-up text.
+
+(2) Subsection 2 with plain text.
 
 4. Inlines
 
