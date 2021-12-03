@@ -8,13 +8,13 @@ const config = {
 };
 
 test('primary styling', async function () {
-  await page.goto(`file://${__dirname}/primary-styling.html`, { waitUntil: 'domcontentloaded' });
+  await page.goto(`file://${__dirname}/primary-styling.html`, { waitUntil: 'networkidle0' });
   const image = await page.screenshot();
   expect(image).toMatchImageSnapshot(config);
 });
 
 test('attachmentsx', async function () {
-  await page.goto(`file://${__dirname}/attachments.html`, { waitUntil: 'domcontentloaded' });
+  await page.goto(`file://${__dirname}/attachments.html`, { waitUntil: 'networkidle0' });
   const image = await page.screenshot();
   expect(image).toMatchImageSnapshot(config);
 });
