@@ -22,3 +22,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm test
+
+      - name: upload snapshot differences
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v2
+        with:
+          name: snapshot-differences
+          path: tests/__image_snapshots__/*
