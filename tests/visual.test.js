@@ -5,7 +5,8 @@ test('primary styling', async function () {
   await page.goto(`file://${__dirname}/primary-styling.html`);
   const image = await page.screenshot();
   expect(image).toMatchImageSnapshot({
-    failureThresholdType: 'pixel',
-    failureThreshold: 500
+    comparisonMethod: 'ssim',
+    failureThreshold: 0.01,
+    failureThresholdType: 'percent',
   })
 });
