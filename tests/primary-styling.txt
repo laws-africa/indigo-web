@@ -8,7 +8,7 @@ Text in the preamble.
 
 BODY
 
-cHAPTER 1 - A Chapter Heading
+CHAPTER 1 - A Chapter Heading
 
 1. Section One
 
