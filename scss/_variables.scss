@@ -39,3 +39,8 @@ $akn-elements-hier: (
 $akn-elements-block: (
   "blockList", "conclusions", "coverPage", "item", "preamble", "preface", "ul"
 );
+
+// document containers
+$akn-elements-doc-container: (
+  "attachment", "component"
+);
