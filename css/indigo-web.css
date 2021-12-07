@@ -23,6 +23,12 @@
   /* footnotes */
   /* quotes */
 }
+.akoma-ntoso .akn-blockContainer {
+  display: block;
+}
+.akoma-ntoso .akn-block {
+  display: block;
+}
 .akoma-ntoso .akn-blockList {
   display: block;
 }
@@ -32,7 +38,16 @@
 .akoma-ntoso .akn-coverPage {
   display: block;
 }
+.akoma-ntoso .akn-foreign {
+  display: block;
+}
 .akoma-ntoso .akn-item {
+  display: block;
+}
+.akoma-ntoso .akn-ol {
+  display: block;
+}
+.akoma-ntoso .akn-p {
   display: block;
 }
 .akoma-ntoso .akn-preamble {
@@ -41,10 +56,13 @@
 .akoma-ntoso .akn-preface {
   display: block;
 }
-.akoma-ntoso .akn-ul {
+.akoma-ntoso .akn-tblock {
   display: block;
 }
-.akoma-ntoso .akn-p {
+.akoma-ntoso .akn-toc {
+  display: block;
+}
+.akoma-ntoso .akn-ul {
   display: block;
 }
 .akoma-ntoso .akn-preface,
