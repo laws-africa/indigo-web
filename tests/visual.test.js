@@ -18,3 +18,9 @@ test('attachments', async function () {
   const image = await page.screenshot();
   expect(image).toMatchImageSnapshot(config);
 });
+
+test('tables', async function () {
+  await page.goto(`file://${__dirname}/tables.html`, { waitUntil: 'networkidle0' });
+  const image = await page.screenshot();
+  expect(image).toMatchImageSnapshot(config);
+});
