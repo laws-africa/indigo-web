@@ -3,7 +3,9 @@
 @import "coverpage";
 @import "headings";
 @import "hierarchical";
+@import "indigo-web";
 @import "inlines";
 @import "tables";
-@import "traditions";
 @import "utilities";
+
+@import "traditions/index";

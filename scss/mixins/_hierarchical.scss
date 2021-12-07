@@ -1,35 +1,15 @@
 @mixin hierarchical {
-  .akn-act,
-  .akn-akomaNtoso,
-  .akn-article,
-  .akn-blockList,
-  .akn-chapter,
-  .akn-conclusions,
-  .akn-coverPage,
-  .akn-crossHeading,
-  .akn-division,
-  .akn-hcontainer,
-  .akn-heading,
-  .akn-list,
-  .akn-paragraph,
-  .akn-part,
-  .akn-point,
-  .akn-preamble,
-  .akn-preface,
-  .akn-section,
-  .akn-subdivision,
-  .akn-subheading,
-  .akn-subsection {
-    display: block;
-  }
+  @each $elem in $akn-elements-hier {
+    .akn-#{$elem} {
+      display: block;
 
-  .akn-article,
-  .akn-chapter,
-  .akn-division,
-  .akn-part,
-  .akn-section,
-  .akn-subdivision {
-    margin-bottom: $akn-section-spacing;
+      @if $elem == 'hcontainer' {
+        // hcontainers are treated like paragraphs, rather than major basic units
+        margin-bottom: $akn-para-spacing;
+      } @else {
+        margin-bottom: $akn-section-spacing;
+      }
+    }
   }
 
   /* Indent list-like containers that have margin numbers.
@@ -44,17 +24,38 @@
       margin-left: 0px;
     }
 
-    &> .akn-num {
+    & > .akn-num {
       display: block;
       float: left;
       margin-left: -$akn-para-indent;
       margin-right: 0.25em;
     }
 
-    &> .akn-heading {
+    & > .akn-heading {
       font-size: inherit;
       text-align: inherit;
       line-height: inherit;
+    }
+  }
+
+  /* lists (mostly used in definitions) */
+  .akn-list {
+    &> .akn-intro {
+      display: block;
+      margin-bottom: $akn-para-spacing;
+    }
+
+    &> .akn-point {
+      display: block;
+      margin-left: $akn-para-indent;
+      margin-bottom: $akn-para-spacing;
+
+      > .akn-num {
+        display: block;
+        float: left;
+        margin-left: -$akn-para-indent;
+        margin-right: 0.25em;
+      }
     }
   }
 }

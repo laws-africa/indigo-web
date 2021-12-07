@@ -1,5 +1,3 @@
-@import "mixins";
-
 /*
  * Indigo Web CSS for Akoma Ntoso
  *
@@ -8,27 +6,9 @@
  */
 
 @import "variables";
-
+@import "mixins";
 
 .akoma-ntoso {
-  &.country-ke {
-    @include tradition-ke;
-  }
-
-  &.country-na {
-    @include tradition-na;
-  }
-
-  &.country-pl {
-    @include tradition-pl;
-  }
-
-  @include blocks;
-  @include core;
-  @include coverpage;
-  @include headings;
-  @include hierarchical;
-  @include inlines;
-  @include tables;
-  @include utilities;
+  @include indigo-web;
+  @include traditions;
 }
