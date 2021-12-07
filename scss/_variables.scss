@@ -35,12 +35,12 @@ $akn-elements-hier: (
 );
 
 // AKN block and block-like elements
-// TODO: add more
 $akn-elements-block: (
-  "blockList", "conclusions", "coverPage", "item", "preamble", "preface", "ul"
+  "blockContainer", "block", "blockList", "conclusions", "coverPage", "foreign", "item", "ol", "p", "preamble",
+  "preface", "tblock", "toc", "ul"
 );
 
-// document containers
+// AKN document containers
 $akn-elements-doc-container: (
   "attachment", "component"
 );
