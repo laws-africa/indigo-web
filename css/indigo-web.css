@@ -408,6 +408,7 @@
   width: 100%;
   margin-bottom: 1.6em;
   border: 1px solid #ddd;
+  border-collapse: collapse;
 }
 .akoma-ntoso table th,
 .akoma-ntoso table td {
