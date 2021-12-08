@@ -23,7 +23,7 @@
   /* blocklists */
   .akn-blockList {
     &> .akn-item {
-      margin-left: $akn-para-indent;
+      padding-left: $akn-para-indent;
       margin-bottom: $akn-para-spacing;
 
       > .akn-num {
