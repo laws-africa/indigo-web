@@ -24,3 +24,15 @@ test('tables', async function () {
   const image = await page.screenshot();
   expect(image).toMatchImageSnapshot(config);
 });
+
+test('footnotes', async function () {
+  await page.goto(`file://${__dirname}/footnotes.html`, { waitUntil: 'networkidle0' });
+  const image = await page.screenshot();
+  expect(image).toMatchImageSnapshot(config);
+});
+
+test('quotes', async function () {
+  await page.goto(`file://${__dirname}/quotes.html`, { waitUntil: 'networkidle0' });
+  const image = await page.screenshot();
+  expect(image).toMatchImageSnapshot(config);
+});
