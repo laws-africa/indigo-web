@@ -1,9 +1,4 @@
 @mixin inlines {
-  abbr[title] {
-    text-decoration: none !important;
-    cursor: default;
-  }
-
   .akn-br {
     display: block;
   }

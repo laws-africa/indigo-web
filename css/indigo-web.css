@@ -389,10 +389,6 @@
   margin-left: -3em;
   margin-right: 0.25em;
 }
-.akoma-ntoso abbr[title] {
-  text-decoration: none !important;
-  cursor: default;
-}
 .akoma-ntoso .akn-br {
   display: block;
 }
