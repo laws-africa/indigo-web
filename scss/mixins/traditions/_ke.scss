@@ -24,4 +24,32 @@
     margin-top: $akn-para-spacing;
     text-align: center;
   }
+
+  // judgments
+  &[frbr-type="judgment"] {
+    @include tradition-ke-judgment;
+  }
+}
+
+@mixin tradition-ke-judgment {
+  .akn-division,
+  .akn-paragraph {
+    .akn-heading {
+      text-align: start;
+      font-size: $akn-font-size;
+      line-height: $akn-line-height;
+    }
+  }
+
+  .akn-heading,
+  .akn-subheading {
+    margin-bottom: $akn-para-spacing;
+  }
+
+  // justify all 'body' text in the main judgment and attachments
+  .akn-judgmentBody, .akn-attachments {
+    .akn-p {
+      text-align: justify;
+    }
+  }
 }
