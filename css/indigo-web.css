@@ -543,6 +543,74 @@
 .akoma-ntoso.country-ke[frbr-type=judgment] table tbody + tbody {
   border-top-width: 0px;
 }
+.akoma-ntoso.country-ke[frbr-type=judgment] .akn-header {
+  padding-top: 1.6em;
+  padding-bottom: 3.2em;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.6em;
+  font-weight: bold;
+  text-align: center;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header .doc-title, .akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header .neutral-citation {
+  margin-bottom: 0.8em;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header .doc-date, .akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header .judges, .akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header .docket-number, .akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header .extra-text, .akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header .doc-authority {
+  margin-bottom: 0.8em;
+  text-transform: uppercase;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header .legacy-citation {
+  margin-bottom: 0.8em;
+  font-weight: normal;
+  font-style: italic;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header .republic-head, .akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header .parties-separator {
+  margin-top: 1.6em;
+  margin-bottom: 0.8em;
+  text-transform: uppercase;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header .party-listing {
+  margin-bottom: 0.8em;
+  text-transform: uppercase;
+  display: flex;
+  align-content: flex-end;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header .party-listing .party-name {
+  text-align: left;
+  max-width: 60%;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header .party-listing .dotted {
+  flex-grow: 1;
+  border-bottom: dotted 1px;
+  margin: 6px;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .tausi-header .header-note {
+  margin-top: 1.6em;
+  margin-bottom: 0.8em;
+  font-style: italic;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .summary {
+  text-align: justify;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .summary .summary-title, .akoma-ntoso.country-ke[frbr-type=judgment] .summary .author {
+  margin-bottom: 0.8em;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .summary .catchwords, .akoma-ntoso.country-ke[frbr-type=judgment] .summary .outcome {
+  font-style: italic;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .summary .akn-h4 {
+  font-weight: bold;
+  font-style: normal;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .introduction .decision-action {
+  text-align: center;
+  margin-top: 2.4em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 .akoma-ntoso.country-na .coverpage .amendment-list,
 .akoma-ntoso.country-na .coverpage .commencement-date,
 .akoma-ntoso.country-na .coverpage .verification-notice,

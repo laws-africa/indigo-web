@@ -7,8 +7,14 @@ const config = {
   failureThresholdType: 'percent',
 };
 
-test('tables', async function () {
-  await page.goto(`file://${__dirname}/ke-tables.html`, { waitUntil: 'networkidle0' });
+test('judgment tables', async function () {
+  await page.goto(`file://${__dirname}/ke-judgment-tables.html`, { waitUntil: 'networkidle0' });
+  const image = await page.screenshot();
+  expect(image).toMatchImageSnapshot(config);
+});
+
+test('judgment header', async function () {
+  await page.goto(`file://${__dirname}/ke-judgment-header.html`, { waitUntil: 'networkidle0' });
   const image = await page.screenshot();
   expect(image).toMatchImageSnapshot(config);
 });
