@@ -7,14 +7,22 @@ const config = {
   failureThresholdType: 'percent',
 };
 
-test('judgment tables', async function () {
-  await page.goto(`file://${__dirname}/ke-judgment-tables.html`, { waitUntil: 'networkidle0' });
-  const image = await page.screenshot();
-  expect(image).toMatchImageSnapshot(config);
-});
+describe('judgment', function () {
+  test('judgment tables', async function () {
+    await page.goto(`file://${__dirname}/ke-judgment-tables.html`, {waitUntil: 'networkidle0'});
+    const image = await page.screenshot();
+    expect(image).toMatchImageSnapshot(config);
+  });
 
-test('judgment header', async function () {
-  await page.goto(`file://${__dirname}/ke-judgment-header.html`, { waitUntil: 'networkidle0' });
-  const image = await page.screenshot();
-  expect(image).toMatchImageSnapshot(config);
+  test('judgment header', async function () {
+    await page.goto(`file://${__dirname}/ke-judgment-header.html`, {waitUntil: 'networkidle0'});
+    const image = await page.screenshot();
+    expect(image).toMatchImageSnapshot(config);
+  });
+
+  test('inlines', async function () {
+    await page.goto(`file://${__dirname}/ke-judgment-inlines.html`, {waitUntil: 'networkidle0'});
+    const image = await page.screenshot();
+    expect(image).toMatchImageSnapshot(config);
+  });
 });
