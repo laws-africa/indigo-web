@@ -345,13 +345,13 @@
 .akoma-ntoso .akn-subsection,
 .akoma-ntoso .akn-paragraph,
 .akoma-ntoso .akn-subparagraph {
-  margin-left: 3em;
+  padding-left: 3em;
   margin-bottom: 0.8em;
 }
 .akoma-ntoso .akn-subsection.akn--no-indent,
 .akoma-ntoso .akn-paragraph.akn--no-indent,
 .akoma-ntoso .akn-subparagraph.akn--no-indent {
-  margin-left: 0px;
+  padding-left: 0px;
 }
 .akoma-ntoso .akn-subsection > .akn-num,
 .akoma-ntoso .akn-paragraph > .akn-num,
@@ -383,6 +383,9 @@
   margin-left: -3em;
   margin-right: 0.25em;
 }
+.akoma-ntoso .akn-br {
+  display: block;
+}
 .akoma-ntoso .akn-def {
   font-weight: bold;
 }
@@ -400,21 +403,33 @@
 .akoma-ntoso .akn-authorialNote {
   display: flex;
   font-size: small;
-  margin-top: 0.8em;
-  margin-bottom: 1.6em;
+  margin-top: 0.4em;
+  padding: 0.25em 0.25em 0 0.25em;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.07);
 }
-.akoma-ntoso .akn-authorialNote > .akn-authorialNote--marker {
-  margin-right: 1.5em;
+.akoma-ntoso .akn-authorialNote::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 1px solid black;
+  width: 15%;
 }
 .akoma-ntoso .akn-authorialNote + .akn-authorialNote {
-  margin-top: -1.6em;
+  margin-top: 0px;
+}
+.akoma-ntoso .akn-authorialNote + .akn-authorialNote::before {
+  border-top: 0px;
+}
+.akoma-ntoso .akn-authorialNote > .akn-authorialNote--marker {
+  margin-right: 0.5em;
 }
 .akoma-ntoso .akn-embeddedStructure {
   display: block;
   margin-left: 2em;
 }
-.akoma-ntoso .akn-embeddedStructure[data-startQuote]::before {
-  content: attr(data-startQuote);
+.akoma-ntoso .akn-embeddedStructure .akn-embeddedStructure--startQuote {
   margin-left: -0.5em;
   float: left;
 }
@@ -487,6 +502,19 @@
   display: block;
   margin-top: 0.8em;
   text-align: center;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .akn-division .akn-heading,
+.akoma-ntoso.country-ke[frbr-type=judgment] .akn-paragraph .akn-heading {
+  text-align: start;
+  font-size: 15px;
+  line-height: 1.35;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .akn-heading,
+.akoma-ntoso.country-ke[frbr-type=judgment] .akn-subheading {
+  margin-bottom: 0.8em;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .akn-judgmentBody .akn-p, .akoma-ntoso.country-ke[frbr-type=judgment] .akn-attachments .akn-p {
+  text-align: justify;
 }
 .akoma-ntoso.country-na .coverpage .amendment-list,
 .akoma-ntoso.country-na .coverpage .commencement-date,
