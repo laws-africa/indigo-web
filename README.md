@@ -63,7 +63,7 @@ To run screenshot-based tests:
 
 # Version history
 
-## 8.0.0 (?)
+## 8.0.0 (8 December 2021)
 * Tradition styling for Kenyan judgments
 * Improved footnote styling
 * Hierarchical numbered elements using padding not margin, so that show-structure works a bit better
