@@ -36,11 +36,19 @@
   }
 
   /* bulleted lists */
-  .akn-ul {
-    list-style-type: disc;
+  .akn-ul,
+  .akn-ol {
     list-style-position: outside;
     padding-left: $akn-para-indent;
     margin-bottom: $akn-para-spacing;
+  }
+
+  .akn-ul {
+    list-style-type: disc;
+  }
+
+  .akn-ol {
+    list-style-type: arabic;
   }
 
   .akn-li {

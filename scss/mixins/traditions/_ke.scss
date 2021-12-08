@@ -52,4 +52,31 @@
       text-align: justify;
     }
   }
+
+  .akn-remark,
+  .akn-ref,
+  .akn-term {
+    font-style: italic;
+  }
+
+  // emphasis
+  em {
+    font-style: normal;
+    text-decoration: underline;
+  }
+
+  // turn off table borders
+  table {
+    border-width: 0px;
+
+    th,
+    td {
+      border-left-width: 0px;
+      border-top-width: 0px;
+    }
+
+    tbody + tbody {
+      border-top-width: 0px;
+    }
+  }
 }

@@ -88,11 +88,17 @@
   margin-left: -3em;
   margin-right: 0.25em;
 }
-.akoma-ntoso .akn-ul {
-  list-style-type: disc;
+.akoma-ntoso .akn-ul,
+.akoma-ntoso .akn-ol {
   list-style-position: outside;
   padding-left: 3em;
   margin-bottom: 0.8em;
+}
+.akoma-ntoso .akn-ul {
+  list-style-type: disc;
+}
+.akoma-ntoso .akn-ol {
+  list-style-type: arabic;
 }
 .akoma-ntoso .akn-li {
   display: list-item;
@@ -383,6 +389,10 @@
   margin-left: -3em;
   margin-right: 0.25em;
 }
+.akoma-ntoso abbr[title] {
+  text-decoration: none !important;
+  cursor: default;
+}
 .akoma-ntoso .akn-br {
   display: block;
 }
@@ -445,11 +455,11 @@
 }
 .akoma-ntoso table th,
 .akoma-ntoso table td {
+  border-top: 1px solid #ddd;
   border-left: 1px solid #ddd;
   padding: 5px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #ddd;
 }
 .akoma-ntoso table th {
   font-weight: bold;
@@ -470,9 +480,6 @@
 }
 .akoma-ntoso table tbody + tbody {
   border-top: 2px solid #ddd;
-}
-.akoma-ntoso table .table {
-  background-color: white;
 }
 .akoma-ntoso .akn--text-left {
   text-align: left;
@@ -515,6 +522,26 @@
 }
 .akoma-ntoso.country-ke[frbr-type=judgment] .akn-judgmentBody .akn-p, .akoma-ntoso.country-ke[frbr-type=judgment] .akn-attachments .akn-p {
   text-align: justify;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] .akn-remark,
+.akoma-ntoso.country-ke[frbr-type=judgment] .akn-ref,
+.akoma-ntoso.country-ke[frbr-type=judgment] .akn-term {
+  font-style: italic;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] em {
+  font-style: normal;
+  text-decoration: underline;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] table {
+  border-width: 0px;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] table th,
+.akoma-ntoso.country-ke[frbr-type=judgment] table td {
+  border-left-width: 0px;
+  border-top-width: 0px;
+}
+.akoma-ntoso.country-ke[frbr-type=judgment] table tbody + tbody {
+  border-top-width: 0px;
 }
 .akoma-ntoso.country-na .coverpage .amendment-list,
 .akoma-ntoso.country-na .coverpage .commencement-date,
