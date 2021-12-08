@@ -36,3 +36,9 @@ test('quotes', async function () {
   const image = await page.screenshot();
   expect(image).toMatchImageSnapshot(config);
 });
+
+test('lists', async function () {
+  await page.goto(`file://${__dirname}/lists.html`, { waitUntil: 'networkidle0' });
+  const image = await page.screenshot();
+  expect(image).toMatchImageSnapshot(config);
+});
