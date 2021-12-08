@@ -1,4 +1,8 @@
 @mixin inlines {
+  .akn-br {
+    display: block;
+  }
+
   .akn-def {
     font-weight: bold;
   }
@@ -21,15 +25,33 @@
   .akn-authorialNote {
     display: flex;
     font-size: small;
-    margin-top: $akn-para-spacing;
-    margin-bottom: $akn-section-spacing;
+    margin-top: $akn-para-spacing / 2;
+    padding: .25em 0.25em 0 .25em;
+    position: relative;
+    background-color: $akn-footnote-bg-colour;
+
+    // add a line above the footnote
+    &::before {
+      content: " ";
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-top: 1px solid black;
+      width: 15%;
+    }
+
+    // only first in consecutive footnotes have a border
+    & + .akn-authorialNote {
+      margin-top: 0px;
+
+      &::before {
+        border-top: 0px;
+      }
+    }
 
     & > .akn-authorialNote--marker {
-      margin-right: $akn-para-indent / 2;
+      margin-right: $akn-para-indent / 6;
     }
-  }
-  .akn-authorialNote + .akn-authorialNote {
-    margin-top: -$akn-section-spacing;
   }
 
   /* quotes */
@@ -37,8 +59,7 @@
     display: block;
     margin-left: $akn-quote-indent;
 
-    &[data-startQuote]::before {
-      content: attr(data-startQuote);
+    .akn-embeddedStructure--startQuote {
       margin-left: -0.5em;
       float: left;
     }

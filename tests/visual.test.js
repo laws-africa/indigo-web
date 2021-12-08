@@ -2,8 +2,8 @@ const {toMatchImageSnapshot} = require('jest-image-snapshot');
 expect.extend({ toMatchImageSnapshot });
 
 const config = {
-  comparisonMethod: 'ssim',
-  failureThreshold: 0.01,
+  comparisonMethod: 'pixelmatch',
+  failureThreshold: 0.0,
   failureThresholdType: 'percent',
 };
 
@@ -33,6 +33,12 @@ test('footnotes', async function () {
 
 test('quotes', async function () {
   await page.goto(`file://${__dirname}/quotes.html`, { waitUntil: 'networkidle0' });
+  const image = await page.screenshot();
+  expect(image).toMatchImageSnapshot(config);
+});
+
+test('lists', async function () {
+  await page.goto(`file://${__dirname}/lists.html`, { waitUntil: 'networkidle0' });
   const image = await page.screenshot();
   expect(image).toMatchImageSnapshot(config);
 });

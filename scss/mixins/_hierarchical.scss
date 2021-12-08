@@ -17,11 +17,11 @@
   .akn-subsection,
   .akn-paragraph,
   .akn-subparagraph {
-    margin-left: $akn-para-indent;
+    padding-left: $akn-para-indent;
     margin-bottom: $akn-para-spacing;
 
     &.akn--no-indent {
-      margin-left: 0px;
+      padding-left: 0px;
     }
 
     & > .akn-num {
