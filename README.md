@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@7.0.0/css/indigo-web.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@8.0.0/css/indigo-web.min.css">
 
 ### From your server
 
@@ -62,6 +62,11 @@ To run screenshot-based tests:
 * publish to npm: `npm publish --dry-run`
 
 # Version history
+
+## 8.0.0 (?)
+* Tradition styling for Kenyan judgments
+* Improved footnote styling
+* Hierarchical numbered elements using padding not margin, so that show-structure works a bit better
 
 ## 7.0.0 (?)
 
