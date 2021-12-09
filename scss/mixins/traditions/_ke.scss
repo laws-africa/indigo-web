@@ -26,12 +26,12 @@
   }
 
   // judgments
-  &[frbr-type="judgment"] {
-    @include tradition-ke-judgment;
+  &[frbr-type="judgement"] {
+    @include tradition-ke-judgement;
   }
 }
 
-@mixin tradition-ke-judgment {
+@mixin tradition-ke-judgement {
   .akn-division,
   .akn-paragraph {
     .akn-heading {
@@ -46,7 +46,7 @@
     margin-bottom: $akn-para-spacing;
   }
 
-  // justify all 'body' text in the main judgment and attachments
+  // justify all 'body' text in the main judgement and attachments
   .akn-judgmentBody, .akn-attachments {
     .akn-p {
       text-align: justify;
