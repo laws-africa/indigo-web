@@ -20,6 +20,7 @@
   /* Indent list-like containers that have margin numbers.
      For the exception where these are not numbered, .akn--no-indent is applied to override the indent. */
   /* lists (mostly used in definitions) */
+  /* amendment markup */
   /* footnotes */
   /* quotes */
 }
@@ -405,6 +406,12 @@
 }
 .akoma-ntoso img {
   max-width: 100%;
+}
+.akoma-ntoso .akn-ins {
+  text-decoration: underline;
+}
+.akoma-ntoso .akn-del {
+  text-decoration: line-through;
 }
 .akoma-ntoso .akn-authorialNote {
   display: flex;
