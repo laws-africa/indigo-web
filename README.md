@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@8.0.0/css/indigo-web.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@8.1.0/css/indigo-web.min.css">
 
 ### From your server
 
@@ -62,6 +62,9 @@ To run screenshot-based tests:
 * publish to npm: `npm publish --dry-run`
 
 # Version history
+
+## 8.1.0 (12 January 2022)
+* Styling for `ins` and `del` AKN elements
 
 ## 8.0.0 (8 December 2021)
 * Tradition styling for Kenyan judgments
