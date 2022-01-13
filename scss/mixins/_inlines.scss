@@ -21,6 +21,14 @@
     max-width: 100%;
   }
 
+  /* amendment markup */
+  .akn-ins {
+    text-decoration: underline;
+  }
+  .akn-del {
+    text-decoration: line-through;
+  }
+
   /* footnotes */
   .akn-authorialNote {
     display: flex;
