@@ -37,11 +37,12 @@ Or use the SCSS files:
 
 ## Building
 
-To build changes:
+GitHub actions will automatically build and commit changes when they are merged to the master branch.
+To build changes manually:
 
-* npm install
-* npm run build
-* git add css/*
+* `npm install`
+* `npm run build`
+* `git add css/*`
 
 ## Testing
 
@@ -55,11 +56,11 @@ To run screenshot-based tests:
 * update version in `package.json`
 * update version in URL in README
 * update Version History (below)
-* build as above
 * test: `npm run test`
-* tag release: `git tag vX.X.X`
-* push to GitHub: `git push; git push origin --tags`
-* publish to npm: `npm publish --dry-run`
+* commit your changes and merge them into master via a Pull Request
+* GitHub will build and commit the compiled CSS onto the master branch
+* tag and release a new release on the master branch using the [GitHub releases UI](https://github.com/laws-africa/indigo-web/releases/new)
+* GitHub will automatically publish the package to NPM
 
 # Version history
 
