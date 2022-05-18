@@ -535,17 +535,6 @@
   font-style: normal;
   text-decoration: underline;
 }
-.akoma-ntoso.country-ke[frbr-type=judgment] table {
-  border-width: 0px;
-}
-.akoma-ntoso.country-ke[frbr-type=judgment] table th,
-.akoma-ntoso.country-ke[frbr-type=judgment] table td {
-  border-left-width: 0px;
-  border-top-width: 0px;
-}
-.akoma-ntoso.country-ke[frbr-type=judgment] table tbody + tbody {
-  border-top-width: 0px;
-}
 .akoma-ntoso.country-ke[frbr-type=judgment] .akn-header {
   padding-top: 1.6em;
   padding-bottom: 3.2em;
