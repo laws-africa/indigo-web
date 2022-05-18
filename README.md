@@ -64,6 +64,9 @@ To run screenshot-based tests:
 
 # Version history
 
+## 8.1.1 (18 May 2022)
+* Show table border for Kenya (KE) AKN styles
+
 ## 8.1.0 (12 January 2022)
 * Styling for `ins` and `del` AKN elements
 
