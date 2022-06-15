@@ -19,7 +19,7 @@ Second, include the CSS as described below.
 
 Use the assets directly from the [jsDelivr](https://www.jsdelivr.com) CDN:
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@8.1.0/css/indigo-web.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@8.1.2/css/indigo-web.min.css">
 
 ### From your server
 
@@ -63,6 +63,9 @@ To run screenshot-based tests:
 * GitHub will automatically publish the package to NPM
 
 # Version history
+
+## 8.1.2 (17 June 2022)
+* Styling for `subrule` AKN element
 
 ## 8.1.1 (18 May 2022)
 * Show table border for Kenya (KE) AKN styles
