@@ -351,17 +351,20 @@
 }
 .akoma-ntoso .akn-subsection,
 .akoma-ntoso .akn-paragraph,
+.akoma-ntoso .akn-subrule,
 .akoma-ntoso .akn-subparagraph {
   padding-left: 3em;
   margin-bottom: 0.8em;
 }
 .akoma-ntoso .akn-subsection.akn--no-indent,
 .akoma-ntoso .akn-paragraph.akn--no-indent,
+.akoma-ntoso .akn-subrule.akn--no-indent,
 .akoma-ntoso .akn-subparagraph.akn--no-indent {
   padding-left: 0px;
 }
 .akoma-ntoso .akn-subsection > .akn-num,
 .akoma-ntoso .akn-paragraph > .akn-num,
+.akoma-ntoso .akn-subrule > .akn-num,
 .akoma-ntoso .akn-subparagraph > .akn-num {
   display: block;
   float: left;
@@ -370,6 +373,7 @@
 }
 .akoma-ntoso .akn-subsection > .akn-heading,
 .akoma-ntoso .akn-paragraph > .akn-heading,
+.akoma-ntoso .akn-subrule > .akn-heading,
 .akoma-ntoso .akn-subparagraph > .akn-heading {
   font-size: inherit;
   text-align: inherit;
