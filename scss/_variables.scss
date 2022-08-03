@@ -39,8 +39,8 @@ $akn-elements-hier: (
 
 // AKN block and block-like elements
 $akn-elements-block: (
-  "blockContainer", "block", "blockList", "conclusions", "coverPage", "foreign", "item", "ol", "p", "preamble",
-  "preface", "tblock", "toc", "ul"
+  "blockContainer", "block", "blockList", "conclusions", "coverPage", "foreign", "intro", "item", "listIntroduction",
+  "listWrapUp", "ol", "p", "preamble", "preface", "tblock", "toc", "ul", "wrapUp"
 );
 
 // AKN document containers

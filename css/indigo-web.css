@@ -42,7 +42,16 @@
 .akoma-ntoso .akn-foreign {
   display: block;
 }
+.akoma-ntoso .akn-intro {
+  display: block;
+}
 .akoma-ntoso .akn-item {
+  display: block;
+}
+.akoma-ntoso .akn-listIntroduction {
+  display: block;
+}
+.akoma-ntoso .akn-listWrapUp {
   display: block;
 }
 .akoma-ntoso .akn-ol {
@@ -66,6 +75,9 @@
 .akoma-ntoso .akn-ul {
   display: block;
 }
+.akoma-ntoso .akn-wrapUp {
+  display: block;
+}
 .akoma-ntoso .akn-preface,
 .akoma-ntoso .akn-preamble {
   margin-bottom: 1.6em;
@@ -75,8 +87,8 @@
   margin-bottom: 0.8em;
 }
 .akoma-ntoso .akn-listIntroduction,
+.akoma-ntoso .akn-listWrapUp,
 .akoma-ntoso .akn-p {
-  display: block;
   margin-bottom: 0.8em;
 }
 .akoma-ntoso .akn-blockList > .akn-item {
